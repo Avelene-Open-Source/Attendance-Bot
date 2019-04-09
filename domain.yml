@@ -1,0 +1,31 @@
+intents:
+ - greet
+ - exit
+ - getLatestInfo #Refers latest_update table
+ - getAttendance # referes cse_attendance , me_attendance  , branch specific attendance table.
+ # Future features
+ #regIssue for registering complaints
+ #SOS : raise an emergency signal
+ #get marks : fetch marks of students 
+
+entities:
+ - SRN     #R15cs023 for example
+ - Branch  #CSE,ME.ECE,EEE,CE
+
+slots:
+  SRN:
+    type: text
+  Branch:
+    type: text
+
+templates:
+  utter_greet:
+    - 'Hello! I am your personal assistant.\nHow can I help you?'
+  utter_exit:
+    - 'Bye Bye'
+
+actions:
+- utter_greet
+- utter_exit
+- action_getAttendance
+- action_getLatestInfo

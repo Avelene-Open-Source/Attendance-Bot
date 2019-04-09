@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/stpl/Desktop/Abhishak/RasaAttendanceBot-master/models/default/nlu/intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "/home/stpl/Desktop/Abhishak/RasaAttendanceBot-master/models/default/nlu/intent_classifier_tensorflow_embedding.ckpt"

@@ -1,0 +1,363 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greeting",
+        "text": "Hello"
+      },
+      {
+        "intent": "greeting",
+        "text": "Hey bot"
+      },
+      {
+        "intent": "greeting",
+        "text": "Hey there"
+      },
+      {
+        "intent": "greeting",
+        "text": "Hey"
+      },
+      {
+        "intent": "greeting",
+        "text": "hello bot"
+      },
+      {
+        "intent": "greeting",
+        "text": "how are you doing ?"
+      },
+      {
+        "intent": "greeting",
+        "text": "hi there"
+      },
+      {
+        "intent": "greeting",
+        "text": "hi bot"
+      },
+      {
+        "intent": "exit",
+        "text": "bye"
+      },
+      {
+        "intent": "exit",
+        "text": "bye bot"
+      },
+      {
+        "intent": "exit",
+        "text": "cya"
+      },
+      {
+        "intent": "exit",
+        "text": "adios"
+      },
+      {
+        "intent": "exit",
+        "text": "I'm done"
+      },
+      {
+        "intent": "exit",
+        "text": "Thank you.That's all."
+      },
+      {
+        "intent": "getAttendance",
+        "entities": [
+          {
+            "start": 22,
+            "end": 30,
+            "value": "r15cs019",
+            "entity": "SRN"
+          }
+        ],
+        "text": "What is my attendance r15cs019 ?"
+      },
+      {
+        "intent": "getAttendance",
+        "entities": [
+          {
+            "start": 15,
+            "end": 23,
+            "value": "r17ME025",
+            "entity": "SRN"
+          }
+        ],
+        "text": " my attendance r17ME025 ?"
+      },
+      {
+        "intent": "getAttendance",
+        "entities": [
+          {
+            "start": 19,
+            "end": 27,
+            "value": "r15EC243",
+            "entity": "SRN"
+          }
+        ],
+        "text": "attendance details r15EC243"
+      },
+      {
+        "intent": "getLatestInfo",
+        "entities": [
+          {
+            "start": 26,
+            "end": 29,
+            "value": "CSE",
+            "entity": "Branch"
+          }
+        ],
+        "text": "what is latest update for CSE department"
+      },
+      {
+        "intent": "getLatestInfo",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "ME",
+            "entity": "Branch"
+          }
+        ],
+        "text": "news for ME department"
+      },
+      {
+        "intent": "regIssue",
+        "entities": [
+          {
+            "start": 37,
+            "end": 45,
+            "value": "r15cs019",
+            "entity": "SRN"
+          },
+          {
+            "start": 46,
+            "end": 49,
+            "value": "CSE",
+            "entity": "Branch"
+          }
+        ],
+        "text": "I would like to register a complaint r15cs019 CSE"
+      },
+      {
+        "intent": "regIssue",
+        "text": "i have a doubt "
+      },
+      {
+        "intent": "regIssue",
+        "text": "I need assistance "
+      },
+      {
+        "intent": "getAttendance",
+        "entities": [
+          {
+            "start": 15,
+            "end": 23,
+            "value": "r15cs025",
+            "entity": "SRN"
+          }
+        ],
+        "text": "attendence for r15cs025"
+      },
+      {
+        "intent": "getAttendance",
+        "entities": [
+          {
+            "start": 28,
+            "end": 36,
+            "value": "r14ec132",
+            "entity": "SRN"
+          }
+        ],
+        "text": "i wanna know attendence for r14ec132"
+      },
+      {
+        "intent": "getAttendance",
+        "entities": [
+          {
+            "start": 19,
+            "end": 27,
+            "value": "r15cs003",
+            "entity": "SRN"
+          }
+        ],
+        "text": "attendence pls for r15cs003"
+      },
+      {
+        "intent": "getAttendance",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "r15cs022",
+            "entity": "SRN"
+          }
+        ],
+        "text": "tell me attendence for r15cs022"
+      },
+      {
+        "intent": "getAttendance",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "r15me343",
+            "entity": "SRN"
+          }
+        ],
+        "text": "give me attendence for r15me343"
+      },
+      {
+        "intent": "getAttendance",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "R15CS194",
+            "entity": "SRN"
+          }
+        ],
+        "text": "ATTENDENCE R15CS194"
+      },
+      {
+        "intent": "getAttendance",
+        "entities": [
+          {
+            "start": 17,
+            "end": 25,
+            "value": "r15cs298",
+            "entity": "SRN"
+          }
+        ],
+        "text": "attendence de do r15cs298"
+      },
+      {
+        "intent": "getAttendance",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "r15ec014",
+            "entity": "SRN"
+          }
+        ],
+        "text": "attendence kodi r15ec014"
+      },
+      {
+        "intent": "getAttendance",
+        "entities": [
+          {
+            "start": 26,
+            "end": 34,
+            "value": "r17EC123",
+            "entity": "SRN"
+          }
+        ],
+        "text": "attendance percentage for r17EC123"
+      },
+      {
+        "intent": "getAttendance",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "R15CS024",
+            "entity": "SRN"
+          }
+        ],
+        "text": "R15CS024 my attendance please."
+      },
+      {
+        "intent": "getAttendance",
+        "entities": [
+          {
+            "start": 19,
+            "end": 27,
+            "value": "R15CS024",
+            "entity": "SRN"
+          }
+        ],
+        "text": "bro attendance for R15CS024"
+      },
+      {
+        "intent": "getAttendance",
+        "entities": [
+          {
+            "start": 7,
+            "end": 15,
+            "value": "R15CS024",
+            "entity": "SRN"
+          }
+        ],
+        "text": "maccha R15CS024 attendance"
+      },
+      {
+        "intent": "getLatestInfo",
+        "text": "give me latest updates in the university"
+      },
+      {
+        "intent": "getLatestInfo",
+        "entities": [
+          {
+            "start": 23,
+            "end": 25,
+            "value": "CV",
+            "entity": "Branch"
+          }
+        ],
+        "text": "whats happening in the CV department"
+      },
+      {
+        "intent": "getLatestInfo",
+        "text": "current affairs in the university"
+      },
+      {
+        "intent": "getLatestInfo",
+        "entities": [
+          {
+            "start": 19,
+            "end": 22,
+            "value": "EEE",
+            "entity": "Branch"
+          }
+        ],
+        "text": "latest info in the EEE department"
+      },
+      {
+        "intent": "regIssue",
+        "entities": [
+          {
+            "start": 28,
+            "end": 36,
+            "value": "r17me212",
+            "entity": "SRN"
+          }
+        ],
+        "text": "I want to lodge a complaint r17me212"
+      },
+      {
+        "intent": "regIssue",
+        "text": "i am having trouble , i want to register a  complaint"
+      },
+      {
+        "intent": "regIssue",
+        "text": "i need help"
+      },
+      {
+        "intent": "regIssue",
+        "text": "I would like to get help"
+      },
+      {
+        "intent": "getLatestInfo",
+        "entities": [
+          {
+            "start": 34,
+            "end": 36,
+            "value": "EC",
+            "entity": "Branch"
+          }
+        ],
+        "text": "whats is the latest update in the EC department"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}
